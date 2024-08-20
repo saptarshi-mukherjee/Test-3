@@ -9,6 +9,6 @@ public class IntelTest {
         System.out.println("Enter second number :-");
         num2=sc.nextInt();
         sum=num1+num2;
-        System.out.println("Sum = "+sum);
+        System.out.println("Sum is = "+sum);
     }
 }
