@@ -3,7 +3,7 @@ import java.util.*;
 public class IntelTest {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int num1, num2, sum, diff=0, div=0;
+        int num1, num2, sum, diff=0;
         System.out.println("Enter first number :-");
         num1=sc.nextInt();
         System.out.println("Enter second number :-");
@@ -12,7 +12,5 @@ public class IntelTest {
         System.out.println("Sum is = "+sum);
         diff=Math.abs(num1-num2);
         System.out.println("Absolute difference = "+diff);
-        div=num1/num2;
-        System.out.println("Integer division = "+div);
     }
 }
